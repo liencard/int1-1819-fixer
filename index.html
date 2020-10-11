@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>The Air Balloon Fixers</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__wrapper">
+      <div class="wrapper__text">
+        <h1 class="header__title">The <br> Air Balloon <br> Fixers</h1>
+        <p class="header__description">Nothing is as annoying as having difficulties fifteen feet in the air. We have
+          the solution! We offer five different services to fix all your flight problems. With us you will always have
+          joyous flights.</p>
+        <a class="btn header__button" href="#services">our services</a>
+      </div>
+      <div class="wrapper__img">
+        <img class="header__balloon header__balloon--purple" src="assets/img/header_balloon_purple.svg"
+          alt="Broken Balloon Purple" width="342" height="450">
+        <img class="header__balloon header__balloon--orange" src="assets/img/header_balloon_orange.svg"
+          alt="Broken Air Balloon Orange" width="218" height="289">
+      </div>
+    </div>
+    <nav class="menu" id="menu">
+      <ul class="menu__items">
+        <li class="menu__item"><a class="menu__link" href="#menu">Home</a></li>
+        <li class="menu__item"><a class="menu__link" href="#services">Services</a></li>
+        <li class="menu__item"><a class="menu__link" href="#fixers">The Fixers</a></li>
+        <li class="menu__item"><a class="menu__link menu__link--button" href="#subscription">Get Subscription</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="content">
+    <!--SERVICES-->
+    <section class="services" id="services">
+      <h2 class="services__title">Services</h2>
+      <p class="services__description">We offer five different services, one of them we specialise in. Each service has
+        a day price. If you think you’ll need our services quite a few times it might be cheaper to get an
+        subscription. With a subscription you can use all our services as many times as you want.</p>
+      <a class="btn services__button" href="#subscription">get subscription</a>
+
+      <!--SPECIALTY-->
+      <section class="specialty">
+        <img class="specialty__img" src="assets/img/better_weather.svg" alt="Service Better Weather" width="876"
+          height="386">
+        <div class="specialty__left">
+          <h3 class="specialty__title">Our specialty</h3>
+          <h4 class="specialty__subtitle">Better <br> Weather</h4>
+
+          <div class="rating">
+            <img class="rating__img" src="assets/img/rating_blank.png" alt="Rating balloon service" width="120"
+              height="120">
+            <p class="rating__tekst"> <strong class="text__bold">Tried our service?</strong> Leave us a rating</p>
+            <form method="get" action="index.html" class="form__rating">
+              <div class="rating__choice">
+                <input type="radio" id="one" name="rating" value="one" class="circle">
+                <label for="one">Awful <br>service</label>
+              </div>
+              <div class="rating__choice">
+                <input type="radio" id="two" name="rating" value="two" class="circle">
+                <label for="two">Still <br> some work</label>
+              </div>
+              <div class="rating__choice">
+                <input type="radio" id="three" name="rating" value="three" class="circle">
+                <label for="three">OK</label>
+              </div>
+              <div class="rating__choice">
+                <input type="radio" id="four" name="rating" value="four" class="circle">
+                <label for="four">Satisfied</label>
+              </div>
+              <div class="rating__choice">
+                <input type="radio" id="five" name="rating" value="five" class="circle">
+                <label for="five">Excellent<br> service</label>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="specialty__right">
+          <p class="specialty__description--bold">Nothing is worse then having weird weather when you go flying, so we
+            specialised in fixing different weather situations that might occur. You will always have good weather
+            conditions when you take your air balloon out for a flight.</p>
+          <div class="specialty__wrapper">
+            <img class="specialty__icon" src="assets/img/icon_storm.svg" alt="Storm icon" width="39" height="32">
+            <p class="specialty__description">In case of <strong class="text__bold">bad weather</strong>, the fixer
+              will perform a sun dance thereby you will have perfect flying weather.</p>
+            <img class="specialty__icon" src="assets/img/icon_sun.svg" alt="Storm icon" width="29" height="28">
+            <p class="specialty__description">When you fly <strong class="text__bold">too close to the sun</strong> and
+              it gets too hot, the fixer will provide sun milk so you’re completely protected.</p>
+            <img class="specialty__icon" src="assets/img/icon_wind.svg" alt="Storm icon" width="40" height="26">
+            <p class="specialty__description">When there is a <strong class="text__bold">violent gust of wind</strong>,
+              the fixer will bring you back on the right track with a hi-tech leaf blower.</p>
+            <div class="service__price__specialty">
+              <p class="price__title">Price/day</p>
+              <p class="price__value">€119,00</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--OTHER SERVICES-->
+      <section class="otherservices">
+        <h3 class="otherservices__title">Other services</h3>
+
+        <!--Houston-->
+        <article class="service">
+          <div class="service__img">
+            <img src="assets/img/houston.svg" alt="Service Houston, we have a problem!" width="420" height="300">
+          </div>
+          <div class="service__details">
+            <h4 class="service__title">Happy high in the sky</h4>
+            <p class="service__info">Is there a <strong class="text__bold">tear in the envelope</strong> of your
+              balloon? Did one of the <strong class="text__bold">cables come loose?</strong> Did a <strong
+                class="text__bold">sand
+                bag fall off</strong>? Technical difficulties are a nightmare too have, but there are no problem no
+              more! The fixer a <strong class="text__bold">world class doctor</strong> who will cure your balloon in no
+              time.</p>
+            <div class="service__price">
+              <p class="price__title">Price/day</p>
+              <p class="price__value">€89,00</p>
+            </div>
+          </div>
+        </article>
+
+        <!--Urgent-->
+        <article class="service">
+          <div class="service__details">
+            <h4 class="service__title">Urgent business</h4>
+            <p class="service__info">Going to the toilet is human, but not ideal when you’re 15 feet in the air. There
+              is a fixer still on the ground who will <strong class="text__bold">bring a toilet</strong>, attached to a
+              drone, <strong class="text__bold">to you</strong>. When you have done your thing the fixer will bring the
+              toilet back down so there don’t remain any bad smells.</p>
+            <div class="service__extra">
+              <div class="extra__price">
+                <p class="price__title">Price/day</p>
+                <p class="price__value">€45,00</p>
+              </div>
+              <div class="extra__disclaimer">
+                <p class="disclaimer__title">Disclaimer</p>
+                <p class="disclaimer__text">Be aware! We can only provide a toilet to a max. height of 12 feet.</p>
+              </div>
+            </div>
+          </div>
+          <div class="service__img">
+            <img src="assets/img/urgent_business.svg" alt="Service Urgent Business" width="420" height="340">
+          </div>
+        </article>
+
+        <!--Happy-->
+        <article class="service__spread">
+          <div class="service__img--long">
+            <img src="assets/img/happy_high.svg" alt="Service Happy High in th sky" width="720" height="361">
+          </div>
+          <div class="service__details">
+            <h4 class="service__title">Happy high in the sky</h4>
+            <p class="service__info">Do you have a <strong class="text__bold">fear of heights</strong>? Are you prone
+              to being <strong class="text__bold">air sick</strong>? No need to worry! The fixer will safely bring you
+              under <strong class="text__bold">hypnosis</strong> so all your fears and will disappear. You’ll still be
+              conscious enough to enjoy the flight and the amazing views.</p>
+            <div class="service__extra">
+              <div class="extra__price">
+                <p class="price__title">Price/day</p>
+                <p class="price__value">€79,00</p>
+              </div>
+              <div class="extra__disclaimer">
+                <p class="disclaimer__title">Disclaimer</p>
+                <p class="disclaimer__text">Due to the use of hypnosis, this service is only allowed for people 12 year
+                  and older.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!--Soft-->
+        <article class="service">
+          <div class="service__details">
+            <h4 class="service__title">Soft landing</h4>
+            <p class="service__info">Landings are known to be rocky. The fixer will attend for a soft landing by
+              preparing <strong class="text__bold">a bouncy castle as landing spot</strong>.
+              The air balloon will not directly touch the ground. It will hover a couple of meters above ground. The
+              bouncy castle will be placed directly below, ready for you to jump on to.</p>
+            <div class="service__extra">
+              <div class="extra__price">
+                <p class="price__title">Price/day</p>
+                <p class="price__value">€49,00</p>
+              </div>
+              <div class="extra__disclaimer">
+                <p class="disclaimer__title">Disclaimer</p>
+                <p class="disclaimer__text">Because our bouncy castle is fragile we allow a total weight of 300kg.</p>
+              </div>
+            </div>
+          </div>
+          <div class="service__img">
+            <img src="assets/img/soft_landing.svg" alt="Service Soft Landing" width="420" height="411">
+          </div>
+        </article>
+      </section>
+    </section>
+
+    <!--THE FIXERS-->
+    <div class="golf__img--top"></div>
+    <section class="fixers" id="fixers">
+      <div class="fixers__wrapper">
+        <div class="fixers__info">
+          <h2 class="fixers__title">The Fixers</h2>
+          <p class="fixers__description--bold">
+            You must be wondering we is this team of fixers exactly? What made them choose this as a profession? Below
+            you’ll find a short introduction to the two people behind this organisation.</p>
+          <p class="fixers__description">
+            The team consist of Ian Williams and Theresa Johnson, who have been doing this for the past 10 years. They
+            met in collage en become instant friends over their same love of flying. They chose to start this
+            organisation because Ian had a revelation.
+          </p>
+          <div class="fixers__profiles">
+            <div class="profile">
+              <p class="profile__name">Ian Williams</p>
+              <p class="profile__age">36 years</p>
+              <ul class="profile__list">
+                <li>12 years of experience</li>
+                <li>loves hiking</li>
+                <li>left handed</li>
+                <li>speaks 4 languages</li>
+              </ul>
+            </div>
+            <div class="profile">
+              <p class="profile__name">Theresa Johnson</p>
+              <p class="profile__age">34 years</p>
+              <ul class="profile__list">
+                <li>10 years of experience</li>
+                <li>has 3 dogs</li>
+                <li>coffee addict</li>
+                <li>decent chef</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="fixers__img">
+          <img src="assets/img/fixers.svg" alt="Fixers Illustration - Back to back" width="374" height="536">
+        </div>
+      </div>
+    </section>
+    <div class="golf__img--bottom"> </div>
+
+    <!--GET SUBSCRIPTION-->
+    <section class="sub" id="subscription">
+      <h2 class="sub__title">Yearly subsciption</h2>
+      <div class="sub__wrapper">
+
+        <form class="sub__form" action="index.html" method="get">
+          <div class="sub__form--line">
+            <label class="sub__form__input">First Name <input type="text" name="first name" size="25"
+                placeholder="John" />
+            </label>
+            <label class="sub__form__input">Last Name <input type="text" name="last name" size="30" placeholder="Doe" />
+            </label>
+          </div>
+
+          <label class="sub__form__input">E-mail <input type="email" name="email" placeholder="john.doe@domain.com" />
+          </label>
+
+          <label class="sub__form__input">Address <input type="text" name="address" size="50"
+              placeholder="John Doe Street 36" />
+          </label>
+
+          <div class="sub__form--line">
+            <label class="sub__form__input">City <input type="text" name="city" size="35" placeholder="Ghent" />
+            </label>
+            <label class="sub__form__input">Post Code <input type="number" name="postcode" size="15"
+                placeholder="Doe" />
+            </label>
+          </div>
+
+          <label class="sub__form__text"><input type="checkbox" name="terms" />I've read the <a href="#"
+              class="terms__link">terms
+              and
+              conditions</a>.</label>
+          <input type="submit" value="Get subscription" class="btn submit-button sub__form__input">
+        </form>
+        <div class="sub__img">
+          <img src="assets/img/subscription_balloon.svg" alt="Woman waving in air balloon" width="330" height="435">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!--FOOTER-->
+  <footer class="footer">
+    <div class="footer__wrapper">
+      <div class="footer__left">
+        <h2 class="footer__title">Contact us</h2>
+        <address class="address">
+          Bernard Spaelaan 36 <br>
+          9000 Ghent, Belgium <br>
+          +32 476 259 903 <br>
+          airballoonfixers@mail.com
+        </address>
+      </div>
+      <div class="footer__right">
+        <div class="footer__social">
+          <a href="https://www.instagram.com/" class="social__img"><img src="assets/img/insta.png" width="16"
+              height="16" alt="instagram icon"></a>
+          <a href="https://twitter.com/" class="social__img"><img src="assets/img/twitter.png" width="16" height="16"
+              alt="twitter icon"></a>
+          <a href="https://www.facebook.com/" class="social__img"><img src="assets/img/facebook.png" width="16"
+              height="16" alt="facebook icon"></a>
+        </div>
+        <p class="footer__text">&copy Lien Cardoen - Devine - 2019</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
